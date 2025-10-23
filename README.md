@@ -1,18 +1,11 @@
-# sub-store-template
-#示例
+现在sing-box几个版本配置有变化，模板文件，链接的路径自己改改，找下仓库里 https://github.com/xishang0128/sub-store-template
 
-#https://raw.githubusercontent.com/jiaguwen999/sub-store-template/refs/heads/main/1.12.x/sing-box.js#name=订阅名称&type=1
+文件管理 来源选 远程，输入 （这是sing-box模板文件） https://raw.githubusercontent.com/xishang0128/sub-store-template/main/sing-box.json
 
-#name=订阅名称
+然后下面的脚本操作 输入链接：（通过脚本获取订阅节点） https://raw.githubusercontent.com/xishang0128/sub-store-template/main/sing-box.js#type=2&name=群友机场
 
-#type=1代表组合订阅  #type=0代表单个订阅
+这里的type， 2表示单条订阅，1表示组合订阅，name表示订阅的名称 改为你自己的sub store的订阅类型与名称
 
-操作流程：
+要注意的是：模板与脚本是配套的
 
-进入sub-store→打开文件编辑→名称随意→类型→文件→来源→远程→链接
-
-https://raw.githubusercontent.com/jiaguwen999/sub-store-template/refs/heads/main/1.12.x/sing-box.json
-
-添加脚本→https://raw.githubusercontent.com/jiaguwen999/sub-store-template/refs/heads/main/1.12.x/sing-box.js
-
-最后面需要加上#name=订阅名称 #type=1代表组合订阅  #type=0代表单个订阅
+保存，预览就可以看到完整的 sing-box 配置
